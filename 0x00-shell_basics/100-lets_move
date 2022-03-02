@@ -1,2 +1,2 @@
 #!/bin/bash
-ls *[[:upper:]]* |xargs -i mv {} /tmp/u
+ls [[:upper:]]* |xargs -i mv {} /tmp/u
