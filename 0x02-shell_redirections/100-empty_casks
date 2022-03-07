@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | cut -c40-
+find . -type d,f -empty -print
